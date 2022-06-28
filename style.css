@@ -70,3 +70,25 @@ body {
 .intern-details .fa-building {
     border-right: none;
 }
+
+/* form input[type="radio"] {
+    float: left;
+    width: 10px;
+    margin-right: 10px;
+}
+
+/* form label {
+    float: left;
+    width: 100px;
+}  */
+
+label,input {
+    width: 100%;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    height: 16px;
+    width: 16px;
+    margin: 10px;
+}
