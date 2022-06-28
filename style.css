@@ -101,3 +101,47 @@ input[type="radio"] .education{
 .intern-details radio {
     align-items: right;
 } 
+
+.submit {
+    background-color: #0077b6;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.clear {
+    background-color: #a2d2ff;
+    color: #000;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* .submit:hover {
+    background-color: #a2d2ff;
+    color: #000;
+}
+
+.clear:hover {
+    background-color: #0077b6;
+    color: #fff;
+} */
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
