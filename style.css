@@ -48,11 +48,6 @@ body {
     padding: 12px 0 8px 40px;
 }
 
-.info {
-    width: 100%;
-    padding: 12px 0 8px 40px;
-}
-
 .intern-details i {
     color: #0077b6;
     position: absolute;
@@ -68,8 +63,7 @@ body {
 }
 
 .education {
-    flex-direction: column;
-    margin: 8px;
+    margin: 4px;
 }
 
 .intern-details .fa-building-columns,
