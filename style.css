@@ -216,8 +216,17 @@ input[type="radio"] .education{
     transform: translateY(10px);
 }
 
+.intern-details h3 {
+    font-size: inherit;
+    font: inherit;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
 @media (max-width: 480px) {
     .container {
-        width: 100%;
+        width: 80%;
+        /* margin: 50px 50px 50px 125px; */
     }
 }
