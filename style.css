@@ -99,7 +99,6 @@ input[type="radio"] .education{
     cursor: pointer;
 }
 
-
 /* Create a custom radio button */
 .checkmark {
     position: absolute;
@@ -188,6 +187,20 @@ input[type="radio"] .education{
     margin-bottom: 10px;
     border: 1px solid #000;
     border-right: 1px solid #000;
+}
+
+.success input {
+    border-color: #09c372;
+}
+
+.error input {
+    border-color: #ff3860;
+}
+
+.error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
 }
 
 @media (max-width: 480px) {
